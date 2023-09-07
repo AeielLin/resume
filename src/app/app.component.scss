@@ -93,6 +93,34 @@
     flex: 8;
     padding-left: 40px;
     border-left: 3px solid #fff;
+
+    .top {
+      max-width: 300px;
+      height: 300px;
+      border-radius: 100%;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 35px;
+      background: linear-gradient(-50deg, rgb(73, 80, 110), rgb(88, 154, 178));
+      background-size: 100% 200%;
+      animation: daylight 10s infinite both;
+      border: solid 3px rgba(white, 0.2);
+    }
+      .toemomo {
+        position: absolute;
+        bottom: 55px;
+        left: 50px;
+    
+        img {
+          width: 200px;
+          transform-origin: center bottom;
+        }
+      }
+      .top:hover{
+        background: linear-gradient(135deg, #ffb2e4, #82d5ff);
+    border: 1px solid #ddd;
+    color: #fff;
+      }
   }
   .top {
     display: flex;
